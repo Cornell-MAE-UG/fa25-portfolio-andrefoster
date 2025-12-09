@@ -3,7 +3,6 @@ layout: project
 title: Torque Wrench
 description: MAE 3270 Final Homework Assignment
 technologies: [Fusion, Ansys]
-image: /assets/images/cover.png
 ---
 
 
@@ -13,7 +12,7 @@ For the MAE 3270 Final Homework assignment, we have been instructred to design a
 
 A - Image(s) of CAD model. Must show all key dimensions.
 
-![Figure 1: Dimensioned CAD Model]({{ "/assets/images/CAD.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Figure 1: Dimensioned CAD Model]({{ "/assets/images/CAD.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
 
 
 B - Describe material used and its relevant mechanical properties.
@@ -28,17 +27,17 @@ Fatigue Strength for 10+E7 Cycles: f' = 92+E3 psi
 
 C - Diagram communicating how loads and boundary conditions were applied to your FEM model.
 
-![Figure 2: FEM Model Loading and Boundary Conditions]({{ "/assets/images/force.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Figure 2: FEM Model Loading and Boundary Conditions]({{ "/assets/images/force.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
 
 
 D - Normal strain contours (in the strain gauge direction) from FEM
 
-![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
 
 
 E - Contour plot of maximum principal stress from FEM
 
-![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.jpg" | relative_url }}){: .inline-image-r style="width: 6000px"}
 
 
 F - Summarize results from FEM calculation showing maximum normal stress (anywhere), load point deflection, strains at the strain gauge locations
