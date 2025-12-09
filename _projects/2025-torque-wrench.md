@@ -1,13 +1,62 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
-image: /assets/images/spaceship-design.jpg
+title: Torque Wrench
+description: MAE 3270 Final Homework Assignment
+technologies: [Fusion, Ansys]
+image: /assets/images/cover.jpg
 ---
 
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+For the MAE 3270 Final Homework assignment, we have been instructred to design a torque wrench able to withstand a moment of 600in-lbf. Here are the results:
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+5.2.1 Results
+
+    A - Image(s) of CAD model. Must show all key dimensions.
+
+![Figure 1: Dimensioned CAD Model]({{ "/assets/images/CAD.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+
+    B - Describe material used and its relevant mechanical properties.
+
+The material I have decided to use is a Titanium alloy, Ti-6Al-4V. The relevant properties are as follows:
+    Modulus of Elasticity: E = 16.7+E6 psi
+    Poisson’s Ratio: v = 0.349
+    Tensile Yield Strength: y = 126+E6 psi
+    Fracture Toughness: KIC = 94.2+E3 psi-in^.05
+    Fatigue Strength for 10+E7 Cycles: f' = 92+E3 psi
+
+
+    C - Diagram communicating how loads and boundary conditions were applied to your FEM model.
+
+![Figure 2: FEM Model Loading and Boundary Conditions]({{ "/assets/images/force.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+
+    D - Normal strain contours (in the strain gauge direction) from FEM
+
+![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+
+    E - Contour plot of maximum principal stress from FEM
+
+![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+
+    F - Summarize results from FEM calculation showing maximum normal stress (anywhere), load point deflection, strains at the strain gauge locations
+
+The results from FEM calculation are as follows:
+    Smax = 142,690 psi
+    Strain @ Gauge = 1,064 micro-strain
+    Load Point  = 0.074 in
+
+
+    G - Torque wrench sensitivity in mV/V using strains from the FEM analysis
+
+According to the FEM analysis, the torque wrenche’s sensitivity is 1.06 mV/V.
+
+
+    H - Strain gauge selected (give type and dimensions). Note that design must physically have enough space to bond the gauges.
+
+
+
+
 
