@@ -32,12 +32,12 @@ Figure 2: FEM Model Loading and Boundary Conditions
 
 D - Normal strain contours (in the strain gauge direction) from FEM
 
-![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.jpg" | relative_url }}){: .inline-image-r style="width: 1200px"}
+![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.png" | relative_url }}){: .inline-image-r style="width: 1200px"}
 Figure 3: FEM Normal Strain Contours
 
 E - Contour plot of maximum principal stress from FEM
 
-![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.jpg" | relative_url }}){: .inline-image-r style="width: 12000px"}
+![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.png" | relative_url }}){: .inline-image-r style="width: 12000px"}
 Figure 4: FEM Principal Stress Contour Plot
 
 F - Summarize results from FEM calculation showing maximum normal stress (anywhere), load point deflection, strains at the strain gauge locations
