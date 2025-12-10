@@ -23,6 +23,7 @@ A - Image(s) of CAD model. Must show all key dimensions.
 <br>
 <br>
 <br>
+<br>
 
 Figure 1: Dimensioned CAD Model
 
@@ -45,6 +46,7 @@ C - Diagram communicating how loads and boundary conditions were applied to your
 <br>
 <br>
 <br>
+<br>
 
 Figure 2: FEM Model Loading and Boundary Conditions
 
@@ -57,11 +59,13 @@ D - Normal strain contours (in the strain gauge direction) from FEM
 <br>
 <br>
 <br>
+<br>
 
 Figure 3: FEM Normal Strain Contours
 
 E - Contour plot of maximum principal stress from FEM  
 ![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.png" | relative_url }}){: .inline-image-r style="width: 2400px"}
+<br>
 <br>
 <br>
 <br>
