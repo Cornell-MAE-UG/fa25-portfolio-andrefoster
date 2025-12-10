@@ -5,22 +5,23 @@ description: MAE 3270 Final Homework Assignment
 technologies: [Fusion, Ansys]
 ---
 
-
-Disclaimer: This portfolio isn't as relevant to me as a Civil Engineer. There is a better formatted version of the information presented here in the submission for part 1 of this assigmnent.
-
-
- For the MAE 3270 Final Homework assignment, we have been instructred to design a torque wrench able to withstand a moment of 600in-lbf. Here are the results:
+For the MAE 3270 Final Homework assignment, we have been instructred to design a torque wrench able to withstand a moment of 600in-lbf. Here are the results:
 
 5.2.1 Results
 
 A - Image(s) of CAD model. Must show all key dimensions.  
+  
+    
+      
+
+
 
 ![Figure 1: Dimensioned CAD Model]({{ "/assets/images/CAD.jpg" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 1: Dimensioned CAD Model
 
 B - Describe material used and its relevant mechanical properties.  
 
-The material I have decided to use is a Titanium alloy, Ti-6Al-4V. The relevant properties are as follows:
+The material I have decided to use is a Titanium alloy, Ti-6Al-4V. The relevant properties are as follows:  
 Modulus of Elasticity: E = 16.7+E6 psi,  
 Poisson’s Ratio: v = 0.349,  
 Tensile Yield Strength: y = 126+E6 psi,  
@@ -29,16 +30,39 @@ Fatigue Strength for 10+E7 Cycles: f' = 92+E3 psi,
 
 
 C - Diagram communicating how loads and boundary conditions were applied to your FEM model.  
+  
 
+
+
+
+
+
+                
 ![Figure 2: FEM Model Loading and Boundary Conditions]({{ "/assets/images/force.jpg" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 2: FEM Model Loading and Boundary Conditions
 
 D - Normal strain contours (in the strain gauge direction) from FEM  
+  
+
+
+
+
+
+
 
 ![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.png" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 3: FEM Normal Strain Contours
 
 E - Contour plot of maximum principal stress from FEM  
+  
+
+
+
+
+
+
+
+  
 
 ![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.png" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 4: FEM Principal Stress Contour Plot
