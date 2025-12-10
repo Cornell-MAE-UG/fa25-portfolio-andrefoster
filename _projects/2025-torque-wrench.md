@@ -12,19 +12,23 @@ For the MAE 3270 Final Homework assignment, we have been instructred to design a
 5.2.1 Results
 
 A - Image(s) of CAD model. Must show all key dimensions.  
-  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-
-
-
-
-  
 ![Figure 1: Dimensioned CAD Model]({{ "/assets/images/CAD.jpg" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 1: Dimensioned CAD Model
 
 B - Describe material used and its relevant mechanical properties.  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 The material I have decided to use is a Titanium alloy, Ti-6Al-4V. The relevant properties are as follows:  
 Modulus of Elasticity: E = 16.7+E6 psi,  
@@ -35,57 +39,75 @@ Fatigue Strength for 10+E7 Cycles: f' = 92+E3 psi,
 
 
 C - Diagram communicating how loads and boundary conditions were applied to your FEM model.  
-  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-
-
-
-                
 ![Figure 2: FEM Model Loading and Boundary Conditions]({{ "/assets/images/force.jpg" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 2: FEM Model Loading and Boundary Conditions
 
 D - Normal strain contours (in the strain gauge direction) from FEM  
-  
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![Figure 3: FEM Normal Strain Contours]({{ "/assets/images/ns-contour.png" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 3: FEM Normal Strain Contours
 
 E - Contour plot of maximum principal stress from FEM  
-  
-
-
-
-
-
-
-
-  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![Figure 4: FEM Principal Stress Contour Plot]({{ "/assets/images/ps-contour.png" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 4: FEM Principal Stress Contour Plot
 
 F - Summarize results from FEM calculation showing maximum normal stress (anywhere), load point deflection, strains at the strain gauge locations  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 The results from FEM calculation are as follows:
 Smax = 142,690 psi,
 Strain @ Gauge = 1,064 micro-strain,
 Load Point  = 0.074 in,
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 G - Torque wrench sensitivity in mV/V using strains from the FEM analysis  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 According to the FEM analysis, the torque wrenche’s sensitivity is 1.06 mV/V.
 
 
 H - Strain gauge selected (give type and dimensions). Note that design must physically have enough space to bond the gauges.  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
