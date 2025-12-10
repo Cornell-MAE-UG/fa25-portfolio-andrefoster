@@ -3,6 +3,8 @@ layout: project
 title: Torque Wrench
 description: MAE 3270 Final Homework Assignment
 technologies: [Fusion, Ansys]
+image: /assets/images/cover.png
+
 ---
 
 For the MAE 3270 Final Homework assignment, we have been instructred to design a torque wrench able to withstand a moment of 600in-lbf. Here are the results:
@@ -11,11 +13,14 @@ For the MAE 3270 Final Homework assignment, we have been instructred to design a
 
 A - Image(s) of CAD model. Must show all key dimensions.  
   
-    
-      
 
 
 
+
+
+
+
+  
 ![Figure 1: Dimensioned CAD Model]({{ "/assets/images/CAD.jpg" | relative_url }}){: .inline-image-r style="width: 2400px"}
 Figure 1: Dimensioned CAD Model
 
